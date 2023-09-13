@@ -82,6 +82,6 @@
   };
 
   actualizarHora();
-  const intervalo = setInterval(actualizarHora, 1000);
+  setInterval(actualizarHora, 1000);
 
 }())
